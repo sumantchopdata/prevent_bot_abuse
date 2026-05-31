@@ -1,0 +1,81 @@
+#%%
+'''
+| Label | Category | Description |
+|-------|----------|-------------|
+| 0 | `greeting` | Greeting or saying hello. |
+| 1 | `farewell` | Saying goodbye or farewell. |
+| 2 | `thank_you` | Expressing gratitude or thanks. |
+| 3 | `affirmation` | Agreeing or confirming something. |
+| 4 | `negation` | Disagreeing or denying something. |
+| 5 | `small_talk` | Engaging in casual or light conversation with no specific purpose. |
+| 6 | `bot_capabilities` | Inquiries about the bot's features or abilities. |
+| 7 | `feedback_positive` | Providing positive feedback about the bot, service, or experience. |
+| 8 | `feedback_negative` | Providing negative feedback about the bot, service, or experience. |
+| 9 | `clarification` | Asking for clarification or more information about a previous statement or question. |
+| 10 | `suggestion` | Offering a suggestion or recommendation for improvement. |
+| 11 | `language_change` | Requesting a change in the language being used by the bot or information about language options. |
+'''
+#%%
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+
+# Basic info
+print("SHAPE:", df.shape)
+print("\nCOLUMNS:\n", df.columns.tolist())
+
+# dtypes and non-null counts
+print("\nINFO:")
+print(df.info())
+
+# First and last rows
+print("\nHEAD:")
+print(df.head(10).to_string(index=False))
+print("\nTAIL:")
+print(df.tail(10).to_string(index=False))
+
+# Summary statistics for numeric cols
+print("\nNUMERIC DESCRIPTION:")
+print(df.describe(include=["number"]).T)
+
+# Summary for object/categorical columns
+obj = df.select_dtypes(include=["object", "category"])
+if not obj.empty:
+    print("\nTOP VALUE COUNTS FOR CATEGORICAL COLUMNS:")
+    for c in obj.columns:
+        print(f"\n-- {c} --")
+        print(obj[c].value_counts(dropna=False).head(10).to_string())
+
+# Missing values
+print("\nMISSING VALUES (per column):")
+print(df.isna().sum())
+
+# If there's a likely target column (named 'label' or 'target'), show distribution
+for candidate in ("label", "target", "y", "class"):
+    if candidate in df.columns:
+        print(f"\nDISTRIBUTION OF '{candidate}':")
+        print(df[candidate].value_counts(dropna=False))
+        break
+
+print("\nDone.")
+#%%
+# check if some texts have multiple labels
+text_label_counts = df.groupby('text')['labels'].nunique()
+texts_with_mult_labels = text_label_counts[text_label_counts > 1]
+print(f"Number of unique texts with multiple labels: {len(texts_with_mult_labels)}")
+#%%
+df[df['text'] == 'Can you help me with something?']
+# included in small_talk, clarification, bot_capabilities and affirmation,
+# which makes sense as it can be used in all those contexts.
+#%%
+# decide which labels are positive class and which are negative class
+positive_labels = [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]
+
+# bot capabilities is difficult to classify as positive or negative,
+# as it can be used in both contexts. So we'll exclude it from the positive class.
+
+data = df[df['labels'] != 6]
+data.shape
+#%%
+# save the cleaned data to a new CSV file
+data.to_csv("cleaned_data.csv", index=False)
