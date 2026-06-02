@@ -79,3 +79,72 @@ data.shape
 #%%
 # save the cleaned data to a new CSV file
 data.to_csv("cleaned_data.csv", index=False)
+#%%
+import pandas as pd
+df = pd.read_csv("cleaned_data.csv", dtype=str, keep_default_na=False)
+print(f"Loaded cleaned_data.csv with shape: {df.shape}")
+# %%
+# remove punctuation or special characters from the text column, make everything lowercase
+import re
+df['text'] = df['text'].apply(lambda x: re.sub(r'[^\w\s]', '', x))
+df['text'] = df['text'].str.lower()
+print("Cleaned text by removing punctuation and converting to lowercase.")
+# %%
+# find out text length distribution
+df['text_length'] = df['text'].apply(len)
+print("Calculated text length distribution.")
+df['text_length'].describe()
+# %%
+# read the 5 smallest inputs
+print("5 shortest texts:")
+print(df.nsmallest(5, 'text_length')[['text', 'labels']].to_string(index=False))
+# %%
+# remove duplicates
+before_dedup = df.shape[0]
+df = df.drop_duplicates(subset=['text'])
+after_dedup = df.shape[0]
+print(f"Removed {before_dedup - after_dedup} duplicate rows. New shape: {df.shape}")
+# %%
+df['text_length'] = df['text'].apply(len)
+print("Calculated text length distribution.")
+df['text_length'].describe()
+# %%
+# read the 5 smallest inputs after deduplication
+print("5 shortest texts after deduplication:")
+print(df.nsmallest(5, 'text_length')[['text', 'labels']].to_string(index=False))
+# %%
+# find out the word count distribution
+df['word_count'] = df['text'].apply(lambda x: len(x.split()))
+print("Calculated word count distribution.")
+df['word_count'].describe()
+# %%
+# read the 5 inputs with the fewest words
+print("5 texts with the fewest words:")
+print(df.nsmallest(5, 'word_count')[['text', 'labels']].to_string(index=False))
+# %%
+# read the 5 longest inputs
+print("5 longest texts:")
+print(df.nlargest(5, 'text_length')[['text', 'labels']].to_string(index=False))
+# %%
+# remove the text_length and word_count columns before saving
+df = df.drop(columns=['text_length', 'word_count'])
+# save the cleaned and deduplicated data to a new CSV file
+df.to_csv("cleaned_data.csv", index=False)
+#%%
+# make all labels 5 as 0 and all others as 1, so we have a binary classification problem
+df['labels'] = df['labels'].apply(lambda x: 0 if x == 5 else 1)
+print("Converted labels to binary: 0 for small_talk, 1 for all other categories.")
+df
+# %%
+# convert the labels to integers
+df['labels'] = df['labels'].astype(int)
+print("Converted labels to integers.")
+# %%
+# find distribution of the new binary labels
+print("Distribution of binary labels:")
+print(df['labels'].value_counts())
+# %%
+# save the final cleaned and labeled data to a new CSV file
+df.to_csv("cleaned_data.csv", index=False)
+print("Saved cleaned and labeled data to cleaned_data.csv")
+# %%
