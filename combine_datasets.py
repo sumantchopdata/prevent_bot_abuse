@@ -4,7 +4,7 @@
 # and keep the cleaned data as is
 
 import pandas as pd
-
+#%%
 def load_dataset(path, label):
     df = pd.read_csv(path, dtype=str, keep_default_na=False)
     if 'user_input' not in df.columns:
@@ -167,3 +167,13 @@ print(val['labels'].value_counts(normalize=True))
 print("Final label distribution in the test set:")
 print(test['labels'].value_counts(normalize=True))
 # %%
+# remove the word_count column from the train, validation and test sets before saving
+
+pd.read_csv("train.csv").drop(columns=['word_count']).to_csv("train.csv", index=False)
+pd.read_csv("val.csv").drop(columns=['word_count']).to_csv("val.csv", index=False)
+pd.read_csv("test.csv").drop(columns=['word_count']).to_csv("test.csv", index=False)
+
+#%%
+pd.read_csv("train.csv").drop(columns=['text_length']).to_csv("train.csv", index=False)
+pd.read_csv("val.csv").drop(columns=['text_length']).to_csv("val.csv", index=False)
+pd.read_csv("test.csv").drop(columns=['text_length']).to_csv("test.csv", index=False)

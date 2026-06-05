@@ -147,4 +147,3 @@ print(df['labels'].value_counts())
 # save the final cleaned and labeled data to a new CSV file
 df.to_csv("cleaned_data.csv", index=False)
 print("Saved cleaned and labeled data to cleaned_data.csv")
-# %%
