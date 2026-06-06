@@ -1,16 +1,13 @@
 #%%
-# create embeddings for train, val and test sets
+# create embeddings for train and test sets
 
 import pandas as pd
 from tqdm import tqdm
-
 from sentence_transformers import SentenceTransformer # pyright: ignore[reportMissingImports]
-
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-#%%
-for split in tqdm(['train', 'val', 'test']):
-    df = pd.read_csv(f"{split}.csv")
+for split in tqdm(['train', 'test']):
+    df = pd.read_csv(f"data/{split}.csv")
     texts = df["user_input"].tolist()
     labels = df["labels"].tolist()
     
@@ -23,4 +20,4 @@ for split in tqdm(['train', 'val', 'test']):
     # save the embeddings and labels to a new CSV file without any column headers
     embeddings_df = pd.DataFrame(embeddings)
     embeddings_df['labels'] = labels
-    embeddings_df.to_csv(f"{split}_embeddings.csv", index=False, header=False)
+    embeddings_df.to_csv(f"data/{split}_embeddings.csv", index=False, header=False)
