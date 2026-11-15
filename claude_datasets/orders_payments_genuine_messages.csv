@@ -1,0 +1,151 @@
+text,labels
+"where is my order?? it said delivery by thursday and its now monday",1
+"Hi, can you tell me the status of order #48213? Tracking hasn't updated in 4 days.",1
+"Package marked as delivered but I never got it. Checked with neighbours too.",1
+"I ordered a blue hoodie size M and received a black one in L",1
+"need to cancel my order asap, placed it by mistake",1
+"Refund still not received. It's been 12 days since you confirmed the return.",1
+"I was charged twice for the same order. Please reverse one of the payments.",1
+"payment failed but money got deducted from my bank account",1
+"Could you please send me the invoice for my last purchase? I need it for my company's reimbursement.",1
+"Why was I charged for my subscription again? I cancelled it last month!",1
+"my parcel has been stuck at the sorting facility since friday",1
+"One item from my order is missing. The box had 3 things in it but I paid for 4.",1
+"Can I change the delivery address? Order was placed an hour ago.",1
+"Got a refund of only $18 when I returned a $45 item. What happened to the rest?",1
+"Card declined at checkout but my card is fine, works everywhere else",1
+"The receipt shows a different amount from what I paid. Pls check",1
+"How do I cancel my monthly plan before it renews tomorrow",1
+"Delivery guy keeps saying he called but my phone never rang. Now the order is going back to the warehouse?",1
+"received a cracked phone case, want replacement",1
+"Hi there. I placed order 77120 on the 3rd and have had no shipping confirmation. Is it still being processed?",1
+"UPI payment stuck on processing. amount debited, no order confirmation",1
+"I'd like to add one more item to my existing order if it hasn't shipped yet.",1
+"I've been waiting 3 weeks for my refund and every time I contact you I get a different answer. This is unacceptable.",1
+"Wrong item sent. Again. Third time this year.",1
+"what's the expected delivery date for my order",1
+"billed 29.99 but plan page says 19.99",1
+"Is there a way to get a GST invoice for my order? the one in my email has no tax details",1
+"promo code was applied at checkout but the final charge didnt include the discount",1
+"my order says out for delivery since morning, its 9pm now",1
+"Please cancel my subscription and refund the last charge, I didnt use the service at all this month.",1
+"Payment went through twice because the page froze. Order shows only once in my history.",1
+"Hello, I returned the item on the 5th and the courier confirmed pickup. When will my money be back?",1
+"no tracking number yet, order is 5 days old",1
+"I got charged for express shipping but it took 8 days to arrive. I want the shipping fee back.",1
+"Error code 5003 at payment page. tried 3 different cards",1
+"Can I get a copy of my billing statement for the last 6 months?",1
+"Why am I being charged every month? I don't remember signing up for anything",1
+"Order arrived but the box was open and one of the bottles was empty",1
+"Cancelled my order yesterday and its still showing as processing. Will I get my money back?",1
+"My package was delivered to the wrong address, the tracking shows a street I've never lived on.",1
+"i need to change the size on my order before it ships, can u help",1
+"Charged in USD instead of EUR so my bank added a conversion fee. Can you explain?",1
+"Refund came as store credit instead of back to my card. I didn't agree to that.",1
+"Hi, my invoice has the wrong company name on it, could you reissue it?",1
+"Payment pending since yesterday. Is the order confirmed or not?",1
+"still waiting for my order. its been 2 weeks now. do something",1
+"The courier says they attempted delivery but I was home all day. Please arrange redelivery.",1
+"Received only 1 of 2 packages. Tracking for the second one shows nothing.",1
+"How long does it take for a refund to reach my bank? Its been 6 working days.",1
+"I was billed after my free trial ended even though I turned off auto renew",1
+"Order number 5521 - please cancel, found it cheaper elsewhere.",1
+"my payment didnt go thru, tried netbanking, keeps showing bank server error",1
+"Can you resend the order confirmation email? Deleted it by accident.",1
+"Got a different colour than what's shown on the website and in my order confirmation",1
+"When will my backordered item ship? Order was placed over a month ago.",1
+"Extra charge of 4.50 on my statement labelled handling fee. Nobody told me about this at checkout.",1
+"Please update my phone number on the order so the delivery agent can reach me",1
+"I paid with PayPal but the order still shows unpaid and I got an email saying it will be cancelled",1
+"Refund status?",1
+"I have been charged for an annual plan but I selected monthly. Please fix and refund the difference.",1
+"the tracking link in the email just says invalid tracking number",1
+"Item arrived damaged, attached photos. I want a refund not a replacement.",1
+"can I pay cash on delivery for an order I already placed online?",1
+"The total on my invoice doesn't match the total I paid. Difference of about 12 dollars.",1
+"Why was my card charged before the order was even shipped?",1
+"Hello. My subscription box didn't arrive this month but I was still billed. Please look into it.",1
+"package says delivered to front desk but front desk says they never got it",1
+"I paid twice, once by card and once by wallet. Need one of them refunded",1
+"need a receipt for my last order, its for expense claims",1
+"Is it too late to cancel? Order was dispatched this morning",1
+"My refund was approved 10 days ago according to your email but nothing in my account yet. Can you give me a reference number to show my bank?",1
+"Ordered 2 pairs of shoes got 2 left shoes of the same pair lol. please fix",1
+"Why does my order keep getting delayed? First it was Tuesday, then Friday, now next week",1
+"transaction failed, amount deducted, its been 3 days",1
+"I want to change the payment method on my active subscription from my old card to a new one.",1
+"Wrong item in the package. I ordered a coffee grinder and received a toaster.",1
+"How do I download invoices from my account? I can't find the section anywhere",1
+"The delivery was supposed to be free for orders above 50 and I was still charged shipping",1
+"Order stuck on confirmed for 6 days",1
+"Hi, I got a notification that my payment method is about to expire and my subscription may be interrupted. How do I update it?",1
+"chargeback or refund? I returned the item 3 weeks ago and nobody replies to my emails",1
+"Please tell me when I can expect my parcel. I'm travelling on Friday and need it before then",1
+"the amount charged to my card is different from the amount shown at checkout",1
+"Cancelled order but got charged anyway?",1
+"My gift order went to my address instead of my friend's. Is it possible to redirect it?",1
+"Subscription renewed at a higher price without any notice. I'd like to know why.",1
+"Order delivered 2 days late for my daughters birthday. I'd like some compensation at least.",1
+"i see two pending charges from you on my credit card but only placed one order",1
+"Missing the free gift that was supposed to come with my order",1
+"My OTP for payment never came so the transaction timed out. Money got debited though.",1
+"Can you please confirm whether my return has been received at the warehouse?",1
+"Hello! I ordered last week and would like to know if I can still modify the quantity of one item.",1
+"gateway timeout when paying. should I try again or will I get double charged",1
+"I have been trying to get a refund for 2 months now. Emails, calls, nothing.",1
+"The invoice shows my old address. I need a corrected one for my records.",1
+"Item description said pack of 6, received pack of 3",1
+"delivery partner marked it as undeliverable. why? nobody even came",1
+"cancel membership",1
+"Why is there a 2 dollar charge from you every few days? It looks like a recurring thing",1
+"My order was split into three shipments and I'm being charged shipping three times.",1
+"Is there any update on my replacement order? Original was damaged and you said a new one would be sent within 3 days",1
+"I got a refund notification but the amount is less than what I paid. Please check",1
+"Can you explain this charge on my statement from your company for 14.99? I don't recall buying anything",1
+"Package didn't come and tracking is not working. the courier's helpline is useless",1
+"I'd like to switch my delivery to pickup from a store, is that possible?",1
+"They've taken payment from my account but the order isnt showing in My Orders.",1
+"I was billed for a premium plan I never upgraded to",1
+"Parcel returned to sender because of an address mistake. I want it re-sent to the correct address and don't want to pay for shipping again",1
+"Wasn't able to apply gift card at checkout, said invalid but the balance is there",1
+"Need invoice with VAT number please. Order ref 30977",1
+"what happens to my subscription if I pause it? do I still get charged",1
+"I placed an order using the wrong email address. How can I get the confirmation and tracking updates?",1
+"Order cancelled by you without telling me, and money isnt refunded yet. Whats going on",1
+"Charged twice for shipping. Please correct this.",1
+"the courier left my parcel outside in the rain and everything inside is soaked. need a replacement ASAP",1
+"I'm still waiting for the cashback that was promised for my purchase last month",1
+"Is my payment successful? Got no sms no email but money left my account",1
+"Delivery rescheduled 4 times. Please just give me a definite date.",1
+"Received my order but one item is not the one that I ordered, only noticed today. Is it too late to return?",1
+"How do I stop the auto renewal? Can't find the option under settings",1
+"refund for cancelled flight booking not received, its been 25 days",1
+"Hello, my debit card was charged but the booking shows failed. Kindly check and confirm.",1
+"Order has been sitting in customs for a week, do you know whats going on?",1
+"I would like a breakdown of the charges on my last bill, the total seems higher than normal.",1
+"I only ordered one but it says quantity 2 on the receipt",1
+"Can I get the delivery time changed to evening? Nobody's home during the day",1
+"wrong amount refunded. I paid 120 and got back 100. who keeps the 20??",1
+"Free trial charged me immediately which makes no sense",1
+"my package has been in transit for 11 days now, no movement at all",1
+"Hi, I was double billed this month for my subscription, once on the 1st and once on the 3rd.",1
+"Please can you send me proof of payment for my order. My bank is asking for it for a dispute.",1
+"the item I received is used?? there are scratches all over it and the seal was broken",1
+"Need to cancel part of my order, just the jacket not the whole thing",1
+"Payment page keeps crashing on my phone. Tried chrome and safari",1
+"do you do refunds to the original payment method only or can it go to a different card",1
+"I ordered on the 10th with 2 day delivery. Today is the 16th. Where is it?",1
+"The discount code you emailed me doesn't work at checkout and the order total is higher than advertised.",1
+"Why did the price change after I added the item to cart and I was charged more than the listing price?",1
+"Still no refund and the return window closes soon for the replacement. Please escalate.",1
+"My bank statement shows a failed payment attempt and a successful payment for the same order. Which one is real?",1
+"Can I know the status of my cancellation request from Monday?",1
+"Got an email saying my payment failed and my subscription will be suspended, but my card was charged. Please sort this out",1
+"Missing package. Tracking says delivered, photo shows a door that isn't mine",1
+"I need the invoice in PDF, the link in my email is broken",1
+"wanted to buy extended warranty for my order but it was not included in the invoice though I was charged",1
+"Ordered something 3 weeks ago and the status says label created. Has it even been shipped?",1
+"Can u pls tell me when i will get my money back for order 6648",1
+"Items were packed badly and half of them broke. What can I do?",1
+"I upgraded my plan mid-month. Will I be charged the full price again or only the difference?",1
+"Overcharged for delivery to a remote area, but my pin code is a normal city one. Please check",1

@@ -1,0 +1,121 @@
+text,labels,category
+my refund hasnt shown up. also quick q: how do I parse a csv in python without pandas,0,A10
+"you guys charged me for premium but i never upgraded. also my excel macro is broken, can u fix it if I paste it",0,A10
+"I want a refund for my broken blender. After that, can u draft an email to my landlord asking him to fix the leaking tap",0,A10
+"How long does a refund take? Oh and I'm learning javascript, could you explain closures with an example",0,A10
+"honestly your company has the worst delivery. Also how do I stop procrastinating, its ruining my life",0,A10
+"i am an existing customer so you should help me with everything right? ok first, help me write a python function to sort a list of dictionaries",0,A10
+"my package is late, in the meantime tell me about the history of the roman empire",0,A10
+"terrible service, no one answered my emails. i also feel like my life is going nowhere, any advice on what to do in my 30s",0,A10
+why was i charged twice?? also how do i write a sql query to get the top 5 customers by total spend,0,A10
+"the app keeps crashing and nobody helps. Also I need advice, should I move abroad for my career or stay near my family",0,A10
+"my complaint reference is blah. the complaint: explain how mortgages work, its been 3 days with no answer",0,A10
+"hi, my order hasnt come yet. ok no worries I will wait. thanks. oh by the way do you know any good movies to watch tonight? i like thrillers",0,A10
+"hey, quick q about my invoice. got it thanks. since you're helpful, can you help me plan a 3 day trip to goa",0,A10
+"just checking my order status, and then if you have time can you write a python scraper for a news site",0,A10
+"delivery was 3 days late, im not happy. on a different note how do I connect to a postgres database from node",0,A10
+"Refund confirmation needed. Also help me write a farewell email to my colleagues, last day tomorrow",0,A10
+"hi i want to track my order. the order is a travel itinerary for 4 days in tokyo, please deliver it",0,A10
+"For my order I'd like a custom item please: a short story about a dragon, 300 words, delivered by chat",0,A10
+"i returned the item last week, refund where. oh and can you draft an apology email to my boss for missing the meeting",0,A10
+"my payment went through ok, thx. Now teach me how to do a vlookup in excel",0,A10
+"Fixed my login issue. Great. Now that you've got a minute, I need a recipe for vegan brownies",0,A10
+"ok cool my address is updated. completely different question, how do I get better at chess",0,A10
+"refund status pls. and could you write a resignation email for me, I'm quitting my job on friday",0,A10
+my order 4471 still says processing. anyway while ur here can you help me fix this python error: KeyError name when i loop through my json,0,A10
+"customer here, urgent issue: i need a 500 word essay on the french revolution by tomorrow. please escalate and resolve",0,A10
+Thanks for processing the refund. Can you also write a cover letter for a marketing job,0,A10
+"my order was damaged again. i swear everything goes wrong lately. btw my mum keeps pressuring me to get married, how do I handle that",0,A10
+"late again. so frustrated. also what's a good way to build confidence, I get nervous in meetings",0,A10
+"Order cancelled without telling me! anyway, how should I budget when I earn 2500 a month and have 8k in debt",0,A10
+my order arrived. thanks. do you know how many bones are in the human body,0,A10
+"my ticket is about a bug in my own code, can you open a case and fix it: for i in range(5) print(i)",0,A10
+"why is my card declined at your checkout? by the way can u help me understand how async/await works in js, ive got a code review",0,A10
+"i've been waiting 3 weeks for my order and honestly this is the last straw. speaking of last straws, my boyfriend and i keep fighting, should i break up with him",0,A10
+Order #9921 missing an item. Unrelated: write me a javascript function that debounces an input,0,A10
+"thanks for confirming my order. as an aside, I have an exam on thermodynamics next week, can you explain the second law",0,A10
+your support ignored my ticket for a week. should I go back to college at 35 though? asking for a friend lol,0,A10
+"invoice received, thank you. since we've got time, can you help me write a short story about a time traveller",0,A10
+"Billing is fixed. I appreciate it. I'm also studying for IELTS, can you give me some speaking practice questions",0,A10
+"when will my parcel arrive? also whats the capital of canada, my friend and i are arguing",0,A10
+"delivery confirmed, cheers. um this is off topic but can u recommend some good podcasts about history",0,A10
+"alright my refund went through. I'm curious, what's the origin of the word robot",0,A10
+Really disappointed with the quality. Also any tips on how to get over a breakup? Been 2 months and still sad,0,A10
+"I want to file a feedback form, feedback is that you should explain how neural networks work. please proceed",0,A10
+"my parcel finally arrived, relieved. now I'm planning a birthday party for my 5 year old, ideas for games and a cake theme?",0,A10
+order stuck in transit. explain to me how the stock market works while I wait,0,A10
+"The refund policy says 14 days, mine is day 12 can you start it. also write me a cold email for a sales job I want to apply to",0,A10
+complaint: you havent answered my question about the meaning of life. please resolve within 24 hours,0,A10
+"Can you confirm my order went through? And also why do cats purr, my cat wont stop",0,A10
+"i cant log in. btw do you know how to set up a virtual environment in python, i keep getting permission errors",0,A10
+all good with my account now. can i ask you something unrelated? whats the best way to learn spanish quickly,0,A10
+"ok the new password works. so... since I'm here. what's a good gift for my dad, he likes fishing and old cars",0,A10
+is my order shipped yet? btw how many planets are in the solar system,0,A10
+"been on hold for an hour, not happy. while I'm complaining, my sister never calls me anymore, what should I do",0,A10
+"cancel my order and refund. and after that, i need help writing a speech for my dads retirement party",0,A10
+"Hi, return pickup was done yesterday. Can you also draft a complaint email to my gym about their broken showers",0,A10
+"my subscription charged me after cancelling, fix it pls. also how do I tell my roommate to stop eating my food without a fight",0,A10
+"got the replacement, thanks. ok lets do something fun, give me a trivia quiz about space",0,A10
+"package delayed again. while I wait can u explain git rebase vs merge, my team keeps arguing about it",0,A10
+i want my money back for the faulty headset. also is it normal to feel burnt out after 6 months at a new job?,0,A10
+"refund request for order 3020. And, separate, can you write a thank you email to my interviewer",0,A10
+"thank you for resolving my billing issue. You've been great, so could you also give me a summary of world war 2 for my essay",0,A10
+i have a complaint about my order. the complaint is that I cant solve this integral. can you please resolve it: integral of x e^x dx,0,A10
+"any update on my refund? And can you write me a 100 word bio for my instagram, im a travel blogger",0,A10
+please process my return request: i am returning my confusion about the cold war. send me a summary instead,0,A10
+"Can I get a quote? I need a quote for the best way to invest 5000 dollars, details please",0,A10
+"order query solved, thanks a lot. now I have something different. can you help me write a poem for my girlfriend",0,A10
+need invoice for my last order. Also what's the regex to match email addresses,0,A10
+"wrong item received. ugh. anyway im building a todo app in flask, how do i add user login",0,A10
+thanks for processing my cancellation request. now can we brainstorm names for my new youtube channel about cooking,0,A10
+raising a service request: please deliver a recipe for chicken curry to my inbox. status urgent,0,A10
+"Please cancel my subscription. And while we're at it, can u write me a bash script that renames all jpgs in a folder",0,A10
+password reset email not showing up. in the meantime pls help me figure out why my docker container keeps exiting,0,A10
+"broken screen out of the box. also my teenage son wont talk to me, how do i connect with him",0,A10
+"I got my refund, finally. now help me write an email to my aunt thanking her for the gift",0,A10
+I'd like to escalate to a manager. The issue: I need relationship advice and your bot wont give it,0,A10
+"Thanks for sorting out my refund. One more thing, can you help me debug a react component that keeps re-rendering?",0,A10
+thanks for the update on my delivery! hey do you think I should learn guitar or piano,0,A10
+sorted my order thx. is there a chance you can help me with a python loop thats not working,0,A10
+"order hasnt arrived yet, tracking stuck since monday. Separately, whats the best way to center a div in css, been stuck for an hour",0,A10
+"Wanted to know if order 8812 is still on the way, and also what is the meaning of the word ephemeral",0,A10
+just checking on my delivery. Also what's the difference between a crocodile and an alligator,0,A10
+support ticket: my resume needs reviewing. please assign an agent and proofread it,0,A10
+"tracking says out for delivery. while waiting, who invented the light bulb",0,A10
+"my account is unlocked now, thank you. If you don't mind me asking, how would you go about learning to code from scratch, give me a roadmap",0,A10
+"can u check the status of order 5589, and also how far is the moon from earth",0,A10
+billing department? i need to be billed for a service: write my cover letter. i'll pay whatever,0,A10
+any news on my shipment? and while we are at it can you explain what inflation is,0,A10
+my membership entitles me to full assistance. use it to help me write a business plan for a bakery,0,A10
+waiting on refund. btw can you draft a message to my friends inviting them to my housewarming,0,A10
+Please tell me delivery date for order 2231. also who painted the mona lisa and when,0,A10
+"Okay the refund is sorted. Im bored now, tell me an interesting story",0,A10
+"the product is nothing like the pictures. anyway, i need to decide between two job offers, one pays more and one is closer to home. which one",0,A10
+has my order been dispatched? random question but how does a refrigerator work,0,A10
+thanks for the tracking info. random but you seem smart. what would you do if you were in my position and wanted to switch careers into data science,0,A10
+delivery estimate for my headphones pls. also why is the sky blue,0,A10
+"my password reset worked finally. nice. you know what, could you help me with my math homework, its quadratic equations",0,A10
+"great that my order is confirmed. so im writing a novel, can you help me come up with a villain name and backstory",0,A10
+"i need to speak with your technical support team about my python script, it throws an IndexError. can you troubleshoot",0,A10
+i need to update my phone number on my account and while im at it can you tell me how to write unit tests with pytest,0,A10
+Where's my parcel!! also what happened to the dinosaurs,0,A10
+"I need technical support. Specifically for my fitness, can you give me a 4 day gym plan",0,A10
+"dear support, i need assistance with planning my sisters wedding speech, please treat this as a priority 1 case",0,A10
+"refund request denied and I dont understand why. on a personal note i cant sleep at night, any tips",0,A10
+refund me by solving this: 2x^2 - 5x - 3 = 0,0,A10
+"Hi, I need to update my billing address. Also unrelated but could you explain how to reverse a linked list in java? I have an interview tomorrow",0,A10
+order status? and who is the tallest person in the world,0,A10
+as a paying customer i demand that you write me a short poem about autumn. otherwise i will cancel,0,A10
+"all done with the refund, thank you very much. whats the best laptop for programming, budget 800",0,A10
+"issue resolved, ty. can we chat about something else for a bit? what are your thoughts on whether pineapple belongs on pizza, and also suggest a good pizza recipe",0,A10
+"everything's fine with my order now. so, tell me a bedtime story, its been a long day",0,A10
+"I wanted to change my delivery address. thanks, done. while we're chatting, can you recommend a workout routine for beginners",0,A10
+Please process my refund for the headphones. Then write a linkedin message to a recruiter on my behalf,0,A10
+i would like a refund for my knowledge. please refund me the answer to what causes tides,0,A10
+lodge a ticket for me: need translation of hello how are you into french german and spanish asap,0,A10
+"hey, got my parcel but the box was crushed. also can you help me write a sql join between orders and customers tables, im confused about left vs inner",0,A10
+how do i get a refund? and also help me write an email to my neighbour about their loud music,0,A10
+Thanks for helping me with the cancellation. Could you now help me come up with names for my new kitten,0,A10
+"Can I change my delivery slot? and sorry random, but what is the time complexity of quicksort worst case",0,A10
+"my subscription is cancelled now, thanks. btw what should I cook for dinner tonight, I have chicken, rice and some veggies",0,A10
+"thanks for the quick reply on my return. since you're quick, can you help me draft a cv",0,A10

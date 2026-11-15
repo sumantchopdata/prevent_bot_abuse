@@ -1,0 +1,151 @@
+text,labels
+"app keeps crashing as soon as I open it",1
+"The website won't load on my phone. Works fine on my laptop though.",1
+"I've been on hold for 45 minutes and then the call dropped. Seriously?",1
+"Getting a white screen after I click checkout",1
+"Hi, the search function on your site returns nothing no matter what I type. Is it down?",1
+"This is the third time I'm contacting you about the same issue and nobody has fixed it. I want to speak to a manager.",1
+"why is everything so slow today",1
+"Error 500 when I try to submit the form. I've tried on Chrome and Edge.",1
+"The app shows my balance as zero but I know I have money in there",1
+"Your last agent told me it would be resolved in 24 hours. It's been a week.",1
+"internet keeps dropping every 20 mins or so since Tuesday",1
+"I clicked pay and the screen froze. Not sure if it went through.",1
+"Hello, the notifications from your app stopped working after the latest update. Could you look into it?",1
+"The delivery time shown on the product page says 2 days but at checkout it says 9 days. Which one is right?",1
+"I want to escalate my complaint. Ticket number 88213 has been open for 3 weeks.",1
+"the dark mode setting doesn't save, resets every time I close the app",1
+"Honestly the worst customer service I've experienced. Rude agent, no solution.",1
+"I cant upload my documents, the button is just greyed out",1
+"page keeps saying something went wrong try again later. been like that all morning",1
+"The product I bought stopped working after a week and I'm really disappointed with the quality.",1
+"Website is showing me prices in dollars even though I selected rupees as my currency",1
+"The app is so laggy on my phone since the last update, scrolling takes forever",1
+"Could someone please help me, I'm unable to download my statement. The download starts and then fails every time.",1
+"how do I use the filter option? when I tap it nothing happens",1
+"Chat support closed my ticket without solving anything. Please reopen it.",1
+"Got a transaction error message on your site but the money still left my account",1
+"outage in my area? no service since 6am",1
+"The tracking page shows an order that isn't mine",1
+"Please escalate this to someone senior. I've explained my problem four times to four different people.",1
+"The video call feature freezes after about a minute. Audio cuts out too.",1
+"I keep getting a timeout error when applying a coupon at checkout",1
+"Why does the app ask me to update but the update isn't available on the store",1
+"the invoice page shows 2019 for every invoice, the dates are all wrong",1
+"Hi, I've followed all the troubleshooting steps on your help page and my router is still not connecting. What else can I try?",1
+"Feeling quite let down. I've been a customer for 6 years and this is how you treat me?",1
+"barcode scanner in the app doesnt scan anything, just a black screen",1
+"The page says I have 3 items in my cart but when I open it, it's empty",1
+"I received no reply to my email in 10 days. Is anyone there?",1
+"Speed test shows 10 Mbps but I'm paying for 100. Please check my line.",1
+"App crashes when I try to attach a photo to my complaint",1
+"error code E-402 what does it mean",1
+"Not happy with the service at all. Technician didn't show up and nobody called to tell me.",1
+"Sorry to bother you, but the reset option for the smart device in the app doesn't seem to work and I'm not sure what I'm doing wrong",1
+"Why is my address showing wrong on the confirmation page? It has an old street name",1
+"website down? cant open it for last hour",1
+"My order history is blank. I know I've bought things before.",1
+"The sync between my phone and my laptop stopped working. Changes I make on one don't show up on the other.",1
+"This is ridiculous. I pay for premium and the app still shows ads.",1
+"After the update the login screen is all squished and I can't see the button",1
+"Can I speak to a human? The bot keeps giving me the same useless answers",1
+"Payment page keeps loading forever and then says session expired",1
+"I'm unable to change my delivery slot, the calendar is greyed out for all dates",1
+"the speaker pairs with my phone then disconnects after 2 mins. returned it once already, replacement does the same",1
+"Your app said my order was delivered but it says out for delivery in the email. Confusing",1
+"Hello. I would like to file a formal complaint about the service I received at your store on Saturday.",1
+"Page loads then jumps around so I accidentally clicked the wrong button. Please fix this.",1
+"Subtitles dont work on the streaming app. Tried different shows",1
+"I got a cashback notification but the wallet shows nothing. Is the app glitching?",1
+"I want to speak to the supervisor. Your agent hung up on me",1
+"The remote control keeps lagging and sometimes the TV doesnt respond at all",1
+"App keeps asking for location permission even after I allowed it",1
+"Why is my data usage showing 0 GB when I've been using the internet all month?",1
+"I filled in the entire form and when I clicked submit it erased everything. This is the second time.",1
+"the app uses way too much battery since the update",1
+"Appalled by the quality of the product. The stitching came apart on the first wear.",1
+"I was told a technician would visit between 9 and 12. It's 3pm.",1
+"The estimated total on the cart page differs from the final amount on the payment page. Bug?",1
+"Is there a known issue with the app on Android 14? Mine freezes on the home screen",1
+"my complaint ref 4471 has had no update. Escalate pls",1
+"The download link you sent me gives a 404 error",1
+"Everything was fine yesterday and today the dashboard just shows a spinning wheel",1
+"Hi, the app is displaying the wrong time zone for all my appointments, they're all 5 hours off.",1
+"Not satisfied with the repair. Same problem is back after 2 days.",1
+"cant add new payment card, it says invalid card number but the number is right",1
+"My smart TV app crashes whenever I press play. Tried reinstalling twice.",1
+"The chat window closes by itself when I try to type",1
+"What is going on with your service?? Third outage this month.",1
+"Pretty disappointed. The item looks nothing like the pictures.",1
+"I submitted the refund request form but the page just says error and no confirmation. Not sure if it went through",1
+"The translation on the app is all messed up, half the menu is in a language I can't read",1
+"Can you please check why my SMS alerts are delayed by hours? I received a transaction alert a day later.",1
+"email notifications are coming in duplicates, 3 or 4 of the same message",1
+"Sorry to complain but the delivery person was very rude and threw the parcel at my door.",1
+"The coupon section shows expired offers as active and the active ones are missing",1
+"Wifi works in the living room but nowhere else since your engineer visited",1
+"I've called the helpline 6 times. Each time, they ask me to repeat everything from the start.",1
+"The app logs my steps wrong, it shows 200 when I walked over 5000",1
+"page not loading, just a blank white",1
+"The screen on the display model shows the wrong specifications. It says 16GB but the actual device has 8",1
+"I need this escalated now. My business is losing money because your system is down.",1
+"Hello! The barcode on my e-ticket doesn't scan at the gate, and the event is today. Please help",1
+"Your online help article for fixing the error is outdated, the menu options it mentions dont exist anymore",1
+"why can't I see my previous messages with support? they just vanished",1
+"Account balance showing different on the app and the website",1
+"The download speed on my plan is way lower in the evenings. Is there congestion?",1
+"my package tracker has been showing the same status for a week, is it broken or is my parcel lost",1
+"Really unhappy with how my complaint was handled. I was promised a call back and it never came.",1
+"Search results on the site show items that are out of stock first. Bit annoying",1
+"I keep getting the same pop up again and again and can't dismiss it. Tried restarting.",1
+"The new interface is a mess. Can't find anything now. How do I switch back to the old one?",1
+"It says my order was cancelled but I never cancelled it. Is there some kind of glitch?",1
+"The video quality is stuck at 240p even though I have the HD plan",1
+"Hi, can someone check the Bluetooth feature? It disappears from the settings menu on my device after a restart.",1
+"app wont let me rate my order, the stars dont respond",1
+"This product is a waste of money. Stopped working in a month and nobody replies to my emails.",1
+"Unable to print my boarding pass from your website, the pdf comes out blank",1
+"The agent I spoke to gave me wrong info about the refund policy and now I'm out of money",1
+"Can't type in the text box on the contact page, keyboard doesn't show up",1
+"The calendar in the app shows wrong dates for the next month. Its showing 31 days for February",1
+"Why is the page asking me to verify I'm human again and again? I've done it like 10 times",1
+"My landline has no dial tone since Sunday. Reported it twice.",1
+"I noticed the price displayed in the app is different from what is on the shelf at your store",1
+"The speech recognition in your app doesnt understand me at all, maybe because of my accent?",1
+"Terrible experience. I was transferred 5 times and no one could help.",1
+"the game keeps freezing and I lose my progress, I paid for the full version",1
+"Hello, I can't open the PDF I downloaded from your portal. It says file is corrupted",1
+"Order confirmation email never arrived but the app shows it as placed. Which is right?",1
+"Please look into this, I keep getting charged a processing fee that wasn't there before and the page shows an error when I try to see the breakdown",1
+"App says no internet connection but my wifi is fine and other apps work",1
+"I'd like to give feedback that the self-checkout machines at your branch are always broken",1
+"The toggle for auto-pay doesnt stay on. I switch it on and it goes off again",1
+"The shipping options aren't loading on the checkout page, just empty",1
+"On the website, clicking my profile name takes me to a 404 page",1
+"Hi, since yesterday evening I haven't been able to stream anything. Buffering all the time even on low quality. My other devices are fine.",1
+"Sorry but I really need to complain. I have waited three months for my installation and every appointment gets cancelled",1
+"Product arrived scratched and your support wants me to pay for the return shipping. Not fair.",1
+"everything on the website is in tiny font on my tablet, cant read it",1
+"keeps saying low storage on the device after the update but I have plenty",1
+"The form wont let me submit because it says phone number is invalid. I am typing it correctly",1
+"Your support number is just a recording that tells me to go to the website. Is there another way to reach someone?",1
+"The app logged me out in the middle of paying. Now I don't know if my payment went through.",1
+"I'd like to formally escalate this matter. I have all the emails and call logs if needed.",1
+"Wrong name showing on my profile page, its my husband's name",1
+"The microphone on the headset is not picking up anything on calls. Tested on two devices",1
+"disappointed, not what I expected from a premium brand",1
+"Pages take 30 seconds to load. Is there maintenance going on?",1
+"Hi there, quick problem: the export to Excel button gives me an empty file",1
+"Your engineer said the issue is fixed but my internet is still down. He didn't even test it before leaving.",1
+"The app sends me a reminder for appointments I cancelled weeks ago",1
+"image upload failing on the reviews section, says file type not supported even though its a jpg",1
+"I want to report that your website shows a product as available in my city but at checkout it says it can't deliver to me",1
+"Why does the live chat say agents are online but nobody answers?",1
+"The scheduled maintenance was supposed to end at 2am. It's 11am and still not working.",1
+"Tried to redeem my points and the app threw a null error",1
+"I'm sorry to be a pain but this is the fourth time the delivery driver has gone to the wrong place and I can't reach him",1
+"the font and icons are all broken, just boxes everywhere on the page",1
+"Please advise. The app says my payment is successful but the order status is still payment failed",1
+"When I use voice commands on the smart speaker it says it doesnt understand even for simple things. Used to work fine.",1
+"I was promised compensation for the outage last week and haven't received anything. Can you check?",1
+"very unsatisfied. the service quality has dropped a lot lately",1

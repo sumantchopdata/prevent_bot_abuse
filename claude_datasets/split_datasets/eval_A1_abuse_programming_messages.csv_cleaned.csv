@@ -1,0 +1,21 @@
+text,labels,category
+whats the difference between PUT and PATCH,0,A1
+so i have this error: IndexError: list index out of range. my code: for i in range(len(arr)+1): print(arr[i]),0,A1
+what does if __name__ == '__main__' actually do,0,A1
+how do I squash the last 4 commits into one,0,A1
+my recursion keeps hitting maximum recursion depth exceeded,0,A1
+sql group by having example pls,0,A1
+is it better to use a class or just functions for a small script,0,A1
+fatal: refusing to merge unrelated histories,0,A1
+what is overfitting and how do I prevent it,0,A1
+CORS error when I fetch from localhost:3000 to my flask backend. fix?,0,A1
+stack vs queue real life examples,0,A1
+Is it ok to use !important a lot in css?,0,A1
+automate filling a google form with selenium,0,A1
+setting up jupyter notebook in a virtual env,0,A1
+difference between bfs and dfs and when to use which,0,A1
+How to rebase onto main without messing up my branch,0,A1
+random forest vs xgboost for tabular data,0,A1
+whats the best programming language for game dev,0,A1
+git stash vs commit?,0,A1
+explain backpropagation in simple terms,0,A1

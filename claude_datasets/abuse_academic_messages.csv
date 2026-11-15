@@ -1,0 +1,151 @@
+text,labels
+"solve 3x + 7 = 22",0
+"whats the derivative of x^2 * sin(x)",0
+"can someone explain how to do long division i never understood it",0
+"Integrate 1/(x^2+1) from 0 to infinity and show steps",0
+"how do you factor a quadratic when the coefficient of x^2 isnt 1",0
+"I need to prove that the square root of 2 is irrational. proof by contradiction, step by step",0
+"what is a matrix determinant and how do I calculate it for a 3x3",0
+"simplify (x^2 - 9)/(x - 3)",0
+"Find the eigenvalues of [[2,1],[1,2]]",0
+"whats 15% of 240",0
+"how do i solve simultaneous equations by elimination: 2x + y = 7 and x - y = 2",0
+"explain limits like I'm in high school",0
+"Can you help me understand the epsilon-delta definition of a limit? My calc professor went way too fast",0
+"area of a circle with radius 7",0
+"differential equation dy/dx = 3y, general solution?",0
+"what is a logarithm even",0
+"How many ways can 5 people be arranged in a row if 2 of them must sit together",0
+"Prove by induction that 1+2+...+n = n(n+1)/2",0
+"pythagorean theorem questions for grade 8",0
+"how to find the inverse of a function f(x) = (2x+1)/(x-3)",0
+"why is the sky blue",0
+"explain newtons three laws with examples",0
+"A 2kg ball is dropped from 20m. What's its velocity just before hitting the ground, ignoring air resistance?",0
+"what is the difference between mitosis and meiosis",0
+"balance this equation: Fe + O2 -> Fe2O3",0
+"How does photosynthesis work? Light dependent vs light independent reactions",0
+"what is entropy in thermodynamics, I only get the disorder explanation",0
+"difference between covalent and ionic bonds",0
+"explain the double slit experiment like I'm 12",0
+"How do vaccines work",0
+"whats the function of mitochondria",0
+"calculate the molarity of a solution with 10g NaOH in 500ml water",0
+"why do objects float or sink? density?",0
+"Can you explain quantum entanglement without maths",0
+"what are the stages of the water cycle",0
+"Explain how CRISPR-Cas9 works and why off-target effects are a problem",0
+"what is the difference between speed and velocity",0
+"why does ice float on water",0
+"need help understanding the Krebs cycle for my biochem exam, what goes in and what comes out at each step",0
+"what is the periodic table organised by",0
+"How does the immune system tell self from non-self?",0
+"Explain special relativity and time dilation. If I travel at 0.8c how much time passes for me vs earth",0
+"what is osmosis",0
+"why do we have seasons",0
+"whats the difference between DNA and RNA",0
+"Explain Le Chatelier's principle with an example",0
+"how do black holes form",0
+"What is the difference between an acid and a base? And what does pH mean?",0
+"Lagrangian mechanics, why is it better than newtonian? i dont get what the action is",0
+"how do plants absorb water",0
+"what caused world war 1",0
+"Can you summarise the French revolution in a few paragraphs",0
+"capital of australia? is it sydney",0
+"Why did the Roman Empire fall",0
+"what was the cold war about",0
+"Describe the main causes and effects of the Industrial Revolution for my history class",0
+"how many continents are there and what are they",0
+"who was Genghis Khan",0
+"why is the Nile so important for Egypt",0
+"What were the main differences between the Allied and Axis powers' strategies in WW2?",0
+"difference between weather and climate",0
+"when did the berlin wall fall and why",0
+"explain the partition of india in 1947",0
+"which river is the longest in the world",0
+"what led to the American civil war",0
+"How did colonialism affect the economies of african countries? essay prompt for tomorrow",0
+"what are tectonic plates",0
+"who built the pyramids",0
+"what is the significance of the Magna Carta",0
+"Explain how the printing press changed europe",0
+"i have an exam tomorrow on cell biology, what are the most important topics to revise?",0
+"can you check my essay for grammar mistakes",0
+"Write a 500 word essay on climate change",0
+"help me come up with a thesis statement for an essay about social media and teenagers",0
+"how do I cite a website in APA 7",0
+"what's a good way to study for finals when i have 5 exams in 3 days",0
+"need a summary of Hamlet",0
+"How do I structure a literature review for my masters dissertation on remote work?",0
+"give me 10 practice questions on organic chemistry",0
+"explain the themes in to kill a mockingbird",0
+"can you write my introduction paragraph for a paper on the effects of sleep deprivation on memory",0
+"What's the difference between a primary and secondary source?",0
+"how do I write a good conclusion",0
+"Need sources for a research paper about renewable energy. Peer reviewed only",0
+"Quiz me on the causes of the great depression",0
+"how to paraphrase without plagiarising",0
+"What is the main idea of Orwells 1984",0
+"I need to write a 2000 word essay about the role of women in world war 2, can you give me an outline?",0
+"Is Hamlet really mad or is he pretending? Argue both sides for my english lit essay.",0
+"best way to memorize formulas for physics exam",0
+"My professor wants a research proposal on behavioural economics. Where do I start?",0
+"can u explain the poem the road not taken? what does it mean",0
+"How do I do a proper methodology section for a qualitative study?",0
+"teach me how to take better notes",0
+"Compare and contrast capitalism and socialism for my econ homework",0
+"What is the difference between a hypothesis and a theory",0
+"whats an annotated bibliography",0
+"Hi, I'm a first year med student and I'm struggling with anatomy. Any tips on remembering the cranial nerves?",0
+"whats the difference between mean median and mode",0
+"If I flip a coin 3 times, what's the probability of getting exactly 2 heads?",0
+"how do I calculate standard deviation",0
+"explain p values in plain english",0
+"what is a normal distribution",0
+"When do I use a t-test vs a z-test?",0
+"Bayes theorem problem: 1% of people have a disease, test is 95% accurate. If I test positive, what's the chance I'm actually sick",0
+"how to interpret a confidence interval",0
+"what is correlation vs causation",0
+"Explain the central limit theorem and why it matters",0
+"probability of drawing 2 aces from a deck without replacement",0
+"Can someone explain ANOVA, I keep mixing up between-group and within-group variance",0
+"whats a chi square test used for",0
+"how do i find the sample size needed for a survey",0
+"what's a type 1 error vs type 2 error",0
+"how do you say good morning in spanish",0
+"What's the difference between ser and estar?",0
+"teach me basic french greetings",0
+"is german grammar hard to learn",0
+"Can you explain the Japanese particles wa and ga? I keep getting them mixed up",0
+"translate I would like a coffee please into italian",0
+"how do i learn mandarin tones",0
+"what is the past tense of the verb go in spanish",0
+"best way to learn vocabulary in a new language?",0
+"Please correct my english: Yesterday I go to the market and buyed some vegetables",0
+"what does bonjour mean",0
+"How many cases does Russian have and when do I use genitive?",0
+"Whats the difference between affect and effect",0
+"korean alphabet how to read hangul fast",0
+"help me prepare for my IELTS speaking test, can you ask me practice questions",0
+"conjugate the verb avoir in the present tense",0
+"how to say thank you in 5 different languages",0
+"Explain the difference between Keynesian and monetarist economics",0
+"what is the categorical imperative",0
+"can you explain supply and demand with a graph",0
+"I'm studying law, what's the difference between civil and criminal law",0
+"Explain Nash equilibrium with the prisoners dilemma",0
+"how do mortgages work? doing a finance module",0
+"What is Freud's theory of the unconscious and how is it criticised today?",0
+"explain opportunity cost",0
+"Can you walk me through the Fourier transform? I understand the formula but have no intuition for what it means",0
+"what is the difference between sociology and psychology",0
+"Explain how a neural impulse travels along an axon, including the role of myelin",0
+"What is cognitive dissonance",0
+"Can you summarise Kant vs Hume on causation",0
+"how does the electoral college work, I have a poli sci quiz",0
+"explain the structure of an atom to me",0
+"what is GDP and how is it calculated",0
+"Intro to organic chem: why is benzene so stable? resonance?",0
+"what was Plato's allegory of the cave about",0
+"define inflation and give an example",0
+"Explain the lac operon, I don't get how repression works when lactose is absent vs present",0

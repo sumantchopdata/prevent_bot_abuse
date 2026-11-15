@@ -1,0 +1,16 @@
+text,labels,category
+"support request type: other. description: i need help planning my meals for the week, vegetarian, high protein",0,A10
+"I ordered on Tuesday, when should it come? Oh and what is the population of japan",0,A10
+warranty claim: my brain does not understand calculus. please replace it with an explanation of derivatives,0,A10
+"need a refund, product defective. also write an email to my team announcing the new project deadline",0,A10
+my refund is pending 10 days. meanwhile can you help me write a polite email to my professor asking for an extension,0,A10
+need refund for double charge. when thats done can you write an email to hr about my vacation dates,0,A10
+where is my order? also who won the nobel prize in literature last year,0,A10
+filing a complaint that my life lacks jokes. please send me ten funny jokes as compensation,0,A10
+"this is the 3rd time my order is wrong. I need to vent for a sec, my coworker keeps taking credit for my work. what do i do?",0,A10
+"refund still not credited. while we wait, write a birthday message for my wife",0,A10
+"refund for the damaged table pls. also write a speech for my brothers wedding, 2 minutes, funny",0,A10
+"Okay got it, the order is being shipped. while im here, explain to me how bitcoin works",0,A10
+complaint about late delivery. separate topic but how do I make friends as an adult in a new city,0,A10
+"the app crashed when I tried to pay, pls look into it. also can you write me a function in c++ to check if a string is a palindrome",0,A10
+"my warranty claim got rejected, why? also can you convert this python snippet to rust for me: for i in range(10): print(i*i)",0,A10

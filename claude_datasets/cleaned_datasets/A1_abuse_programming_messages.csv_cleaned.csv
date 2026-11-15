@@ -1,0 +1,201 @@
+text,labels,category
+how do i reverse a string in python,0,A1
+"getting TypeError: 'NoneType' object is not subscriptable on line 42, no idea why. my function returns a list i thought",0,A1
+whats the difference between a list and a tuple,0,A1
+python list comprehension to flatten a list of lists?,0,A1
+why does my for loop only run once,0,A1
+Can you explain decorators like I'm five? Still don't get @functools.wraps,0,A1
+ModuleNotFoundError: No module named 'requests' even though i pip installed it,0,A1
+how to read a csv file and skip the first row,0,A1
+"I have a dict of dicts and want to sort by a nested value, descending. Whats the cleanest way?",0,A1
+is it better to use a class or just functions for a small script,0,A1
+async await in python confuses me. when do I use asyncio.gather vs create_task,0,A1
+fix this: for i in range(10) print(i),0,A1
+python virtualenv vs conda which should I use,0,A1
+"how do I handle exceptions properly, I just wrap everything in try except pass lol",0,A1
+Need a function that takes a list of ints and returns the second largest without sorting. Edge cases with duplicates please,0,A1
+what does if __name__ == '__main__' actually do,0,A1
+my recursion keeps hitting maximum recursion depth exceeded,0,A1
+convert string to datetime in python with timezone,0,A1
+Why is my python code so slow? Looping over 2 million rows in a pandas dataframe with iterrows,0,A1
+write a python program to check if a number is prime,0,A1
+"SELECT with a join is returning duplicate rows, what am i doing wrong",0,A1
+How do I find the second highest salary in an employee table,0,A1
+whats the difference between INNER JOIN and LEFT JOIN,0,A1
+Postgres: how to add an index on a jsonb column and will it actually speed up my queries,0,A1
+i need a query that gets the top 3 products per category by sales,0,A1
+delete duplicate rows from a mysql table but keep one,0,A1
+my query takes 40 seconds on a table with 5M rows. EXPLAIN shows a seq scan. what should I check,0,A1
+how to backup a mysql database from command line,0,A1
+"What is normalization? 3NF specifically, I have an exam tomorrow",0,A1
+window function to compute running total partitioned by customer id,0,A1
+sql group by having example pls,0,A1
+How do I set up a foreign key with ON DELETE CASCADE in sqlite,0,A1
+can u explain the difference between primary key and unique,0,A1
+Is it a good idea to store json in a relational DB or should I make separate tables?,0,A1
+error 1064 you have an error in your SQL syntax near 'order by',0,A1
+how do I pivot rows into columns in SQL server,0,A1
+"migrating from mysql to postgres, any gotchas with auto increment and datetime?",0,A1
+Need to update column A in table1 with values from table2 matching on id,0,A1
+what are transactions and when do I need isolation level serializable,0,A1
+"mongodb vs postgres for a small chat app, which one",0,A1
+how do i center a div,0,A1
+my flexbox items wont wrap on mobile. container has display flex and flex-wrap: wrap already,0,A1
+"JavaScript: whats the difference between let, const and var",0,A1
+build me a simple to do list app with html css and js,0,A1
+onclick not working on dynamically added buttons,0,A1
+"How do I make a navbar that collapses into a hamburger menu on small screens, no bootstrap",0,A1
+why does 0.1 + 0.2 not equal 0.3 in js,0,A1
+"fetch returns a promise, how do I actually get the data out of it?",0,A1
+css grid 3 columns responsive,0,A1
+"what is the event loop in javascript, been asked in interviews and i cant explain it",0,A1
+how to validate an email in a form using regex in javascript,0,A1
+"my react component re-renders infinitely, useEffect with setState inside, no dependency array",0,A1
+Can you make a landing page for my bakery with a hero section and contact form,0,A1
+uncaught TypeError cannot read properties of undefined reading map,0,A1
+debounce function in js? explain with example,0,A1
+Is it ok to use !important a lot in css?,0,A1
+how to make an image responsive without stretching,0,A1
+node express server keeps crashing with EADDRINUSE port 3000,0,A1
+what is the difference between == and === in javascript,0,A1
+dark mode toggle using css variables and localstorage,0,A1
+I want a script that renames all files in a folder by adding the date prefix,0,A1
+how can i automate sending emails from gmail using python at 9am every day,0,A1
+bash script to delete log files older than 7 days,0,A1
+Is there a way to scrape prices from a website every hour and save them into excel?,0,A1
+Need a powershell script that lists all users in AD who haven't logged in for 90 days,0,A1
+"cron job not running, the script works manually",0,A1
+automate filling a google form with selenium,0,A1
+script to merge 50 pdf files into one,0,A1
+how do I make python watch a folder and run something when new file appears,0,A1
+"auto backup my documents folder to an external drive every night, windows",0,A1
+i have a bunch of excel files with the same columns. combine them all into one sheet automatically,0,A1
+How do I send a slack message from a script when a job finishes?,0,A1
+selenium keeps saying element not interactable,0,A1
+bulk resize 500 images to 800px wide,0,A1
+How can I parse a log file and count how many times each ip appears,0,A1
+whatsapp message automation with python possible?,0,A1
+schedule a task in windows task scheduler to run a bat file at startup,0,A1
+Looking for a script that downloads all images from a webpage,0,A1
+rename mp3 files based on their id3 tags,0,A1
+how do I automate daily report generation from a database and email as pdf,0,A1
+explain big o notation simply,0,A1
+"binary search implementation, mine gets stuck in infinite loop",0,A1
+difference between bfs and dfs and when to use which,0,A1
+how to detect a cycle in a linked list,0,A1
+what's the time complexity of python's sort,0,A1
+dynamic programming is killing me. can you explain the knapsack problem step by step,0,A1
+reverse a linked list iteratively and recursively in java,0,A1
+how do hash maps handle collisions,0,A1
+Implement an LRU cache in O(1) for get and put,0,A1
+is quicksort or mergesort better for large arrays,0,A1
+leetcode two sum optimal solution?,0,A1
+Whats a trie and when would I use it,0,A1
+how to find the shortest path in a weighted graph. dijkstra pseudo code,0,A1
+stack vs queue real life examples,0,A1
+"I need to find all permutations of a string in c++, but without duplicates",0,A1
+why is my merge sort giving wrong output for odd length arrays,0,A1
+what is the difference between array and linked list,0,A1
+heap sort explained,0,A1
+How to check if a binary tree is balanced,0,A1
+"sliding window technique, when does it apply",0,A1
+how do i call a REST api in python and parse the json,0,A1
+my POST request returns 415 unsupported media type,0,A1
+Design a REST API for a library management system. What endpoints should I have?,0,A1
+what is the difference between REST and GraphQL,0,A1
+CORS error when I fetch from localhost:3000 to my flask backend. fix?,0,A1
+how to add jwt authentication to a fastapi app,0,A1
+i keep getting 401 from the stripe api with my test key,0,A1
+How do I paginate results in a django rest framework viewset,0,A1
+webhooks vs polling?,0,A1
+What's the best way to version an API? url path or headers,0,A1
+rate limiting in express with redis,0,A1
+how to upload a file with multipart form data using axios,0,A1
+"swagger/openapi doc for my flask app, how",0,A1
+Trying to integrate twilio sms into my node app but the callback never fires,0,A1
+api returns 504 gateway timeout only for big payloads,0,A1
+whats the difference between PUT and PATCH,0,A1
+OAuth2 flow explained. authorization code vs implicit,0,A1
+how do I consume a SOAP api in python,0,A1
+getting Access-Control-Allow-Origin error when calling my api from the browser,0,A1
+"Need to build a simple REST api with node and mongodb, where do I start",0,A1
+how do I undo my last commit but keep the changes,0,A1
+"git merge conflict, what do all those arrows mean",0,A1
+what's the difference between git pull and git fetch,0,A1
+accidentally pushed my api keys to github. how do I remove them from history,0,A1
+How to rebase onto main without messing up my branch,0,A1
+git stash vs commit?,0,A1
+detached HEAD state?? what did I do,0,A1
+how to delete a remote branch,0,A1
+set up ssh key for github on windows,0,A1
+git reset --hard vs --soft vs --mixed,0,A1
+my .gitignore isnt ignoring files that are already tracked,0,A1
+"what is a pull request exactly, first time contributing to open source",0,A1
+how do I squash the last 4 commits into one,0,A1
+cherry pick a commit from another branch,0,A1
+Whats a good branching strategy for a team of 5? gitflow or trunk based,0,A1
+fatal: refusing to merge unrelated histories,0,A1
+How do I change the author of an old commit,0,A1
+git push rejected non fast forward,0,A1
+can I use git for tracking word documents,0,A1
+how to see who changed a line in a file,0,A1
+how to install python on windows 11 and add to path,0,A1
+"docker container exits immediately after start, logs are empty",0,A1
+How do I set up nginx as a reverse proxy for a node app on ubuntu 22.04?,0,A1
+pip install fails with error: Microsoft Visual C++ 14.0 is required,0,A1
+"installing node with nvm, command not found after install",0,A1
+what ide should I use for java as a beginner,0,A1
+How to configure VS Code to auto format on save with prettier,0,A1
+"mysql wont start after update, error log says innodb: unable to lock ibdata1",0,A1
+setting up jupyter notebook in a virtual env,0,A1
+How do I install tensorflow with GPU support? CUDA version mismatch,0,A1
+whats the difference between docker and a virtual machine,0,A1
+ssh into my raspberry pi from outside my network,0,A1
+"Need to set up a local postgres db for development on mac, brew or docker?",0,A1
+how to change python version in ubuntu,0,A1
+java not recognized as an internal or external command,0,A1
+configure apache to serve https with let's encrypt,0,A1
+npm ERR! code ERESOLVE unable to resolve dependency tree,0,A1
+how do I set environment variables permanently in linux,0,A1
+what is overfitting and how do I prevent it,0,A1
+pandas merge two dataframes on multiple columns,0,A1
+my neural network accuracy is stuck at 50% for binary classification,0,A1
+difference between train test split and cross validation,0,A1
+how to handle imbalanced classes. smote or class weights?,0,A1
+sklearn pipeline with column transformer for mixed numeric and categorical features,0,A1
+explain backpropagation in simple terms,0,A1
+How do I fine tune a bert model for sentiment analysis with huggingface,0,A1
+matplotlib plot not showing in jupyter,0,A1
+what does the learning rate do,0,A1
+how do I deal with missing values in a dataset,0,A1
+"pytorch cuda out of memory when batch size is 64, gpu has 8gb",0,A1
+random forest vs xgboost for tabular data,0,A1
+How to compute precision recall and f1 from a confusion matrix,0,A1
+Can you give me a simple linear regression from scratch using numpy,0,A1
+whats a good way to do feature selection with 500 features and only 2000 rows,0,A1
+LSTM vs transformer for time series forecasting?,0,A1
+tf-idf vs word2vec,0,A1
+what is gradient descent,0,A1
+How do I deploy my trained model as an API with flask,0,A1
+pandas groupby then apply custom function returns weird index,0,A1
+How do I build a chatbot using the openai api and langchain?,0,A1
+"Here's my code: def add(a,b) return a+b  and it says invalid syntax. what's wrong",0,A1
+"i am a total beginner, where do i even start learning to code?",0,A1
+so i have this error: IndexError: list index out of range. my code: for i in range(len(arr)+1): print(arr[i]),0,A1
+"my sql query SELECT name, COUNT(*) FROM orders GROUP BY name HAVING COUNT(*) > 5 returns nothing but I know there are matches",0,A1
+I'm building a Flask app with SQLAlchemy and I get DetachedInstanceError when accessing a relationship attribute after the session closes. I tried expire_on_commit=False but it still happens in my background thread. What's the right pattern here?,0,A1
+js: how to sort array of objects by date string,0,A1
+whats the best programming language for game dev,0,A1
+How can I make a discord bot in python that replies to certain keywords,0,A1
+need help w/ my homework: a java class for a bank account with deposit and withdraw methods,0,A1
+what is a segmentation fault in c and how to debug it,0,A1
+"rust borrow checker keeps rejecting my code, cannot borrow as mutable more than once. how to restructure?",0,A1
+regex to extract phone numbers from text,0,A1
+kotlin coroutines vs threads,0,A1
+"Hey quick question, how do I make a progress bar in tkinter",0,A1
+convert my python script into an exe,0,A1
+why does my c# console app close instantly after running,0,A1
+whats the difference between abstract class and interface,0,A1
+"unit testing in python, pytest fixtures?",0,A1
+How do I use the openpyxl library to write data to specific cells and apply formatting?,0,A1
+excel vba macro to loop through rows and copy to another sheet,0,A1
