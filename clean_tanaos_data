@@ -1,0 +1,153 @@
+# clean the tanaos dataset
+
+'''
+| Label | Category | Description |
+|-------|----------|-------------|
+| 0 | `greeting` | Greeting or saying hello. |
+| 1 | `farewell` | Saying goodbye or farewell. |
+| 2 | `thank_you` | Expressing gratitude or thanks. |
+| 3 | `affirmation` | Agreeing or confirming something. |
+| 4 | `negation` | Disagreeing or denying something. |
+| 5 | `small_talk` | Engaging in casual or light conversation with no specific purpose. |
+| 6 | `bot_capabilities` | Inquiries about the bot's features or abilities. |
+| 7 | `feedback_positive` | Providing positive feedback about the bot, service, or experience. |
+| 8 | `feedback_negative` | Providing negative feedback about the bot, service, or experience. |
+| 9 | `clarification` | Asking for clarification or more information about a previous statement or question. |
+| 10 | `suggestion` | Offering a suggestion or recommendation for improvement. |
+| 11 | `language_change` | Requesting a change in the language being used by the bot or information about language options. |
+
+
+We'll remove the following from the dataset:
+- 6 | `bot_capabilities` - It is confusing for the classifier.
+- 0, 1, 2, 3, 4, 5, 9, 11 - These are not relevant to our task
+
+'''
+#%%
+import pandas as pd
+
+df = pd.read_csv("data/data.csv")
+#%%
+# Basic info
+print("SHAPE:", df.shape)
+print("\nCOLUMNS:\n", df.columns.tolist())
+
+print(df.info())
+print(df.head(10).to_string(index=False))
+
+# Summary statistics for numeric cols
+print(df.describe(include=["number"]).T)
+
+# Summary for object/categorical columns
+obj = df.select_dtypes(include=["object", "category"])
+if not obj.empty:
+    print("\nTOP VALUE COUNTS FOR CATEGORICAL COLUMNS:")
+    for c in obj.columns:
+        print(f"\n-- {c} --")
+        print(obj[c].value_counts(dropna=False).head(10).to_string())
+
+# Missing values
+print(df.isna().sum())
+print(df['labels'].value_counts(dropna=False))
+
+# check if some texts have multiple labels
+text_label_counts = df.groupby('text')['labels'].nunique()
+texts_with_mult_labels = text_label_counts[text_label_counts > 1]
+print(f"Number of unique texts with multiple labels: {len(texts_with_mult_labels)}")
+#%%
+# remove duplicates
+before_dedup = df.shape[0]
+df = df.drop_duplicates()
+after_dedup = df.shape[0]
+print(f"Removed {before_dedup - after_dedup} duplicate rows. New shape: {df.shape}")
+
+data = df[df['labels'] != 6]
+print('Shape after removing label 6:', data.shape)
+#%%
+# remove labels 0, 1, 2, 3, 4, 5, 6, 9, 11
+labels_to_remove = [0, 1, 2, 3, 4, 5, 6, 9, 11]
+df = df[~df['labels'].isin(labels_to_remove)]
+print('Shape after removing labels 0, 1, 2, 3, 4, 5, 6, 9, 11:', df.shape)
+#%%
+# Turn all the labels to 1, and add a new column with the text "G6"
+df['labels'] = 1
+df['category'] = "G6"
+df
+#%%
+df.drop_duplicates(subset=['text'], inplace=True)
+#%%
+# save the cleaned data to a new CSV file
+df.to_csv("claude_datasets/cleaned_datasets/G6_genuine_feedback_suggestion_cleaned.csv", index=False)
+#%%
+# Split it into train, eval and test sets,
+# and append them to the combined train, eval and test sets.
+from sklearn.model_selection import train_test_split
+
+# Split the data into train, eval, and test sets
+train_data, temp_data = train_test_split(df, test_size=0.2, random_state=42)
+eval_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42)
+
+train_data.to_csv("claude_datasets/split_datasets/train_G6_genuine_feedback_suggestion_cleaned.csv", index=False)
+eval_data.to_csv("claude_datasets/split_datasets/eval_G6_genuine_feedback_suggestion_cleaned.csv", index=False)
+test_data.to_csv("claude_datasets/split_datasets/test_G6_genuine_feedback_suggestion_cleaned.csv", index=False)
+#%%
+combined_df_train = pd.read_csv("claude_datasets/combined_train.csv")
+combined_df_eval = pd.read_csv("claude_datasets/combined_eval.csv")
+combined_df_test = pd.read_csv("claude_datasets/combined_test.csv")
+#%%
+# Append the new data to the combined datasets
+combined_df_train = pd.concat([combined_df_train, train_data], ignore_index=True)
+combined_df_eval = pd.concat([combined_df_eval, eval_data], ignore_index=True)
+combined_df_test = pd.concat([combined_df_test, test_data], ignore_index=True)
+
+# Save the updated combined datasets
+combined_df_train.to_csv("claude_datasets/combined_train_v2.csv", index=False)
+combined_df_eval.to_csv("claude_datasets/combined_eval_v2.csv", index=False)
+combined_df_test.to_csv("claude_datasets/combined_test_v2.csv", index=False)
+
+# find the category distribution in the combined datasets
+print("Category distribution in combined_train_v2.csv:")
+print(combined_df_train['category'].value_counts(normalize=True))
+print("\nCategory distribution in combined_eval_v2.csv:")
+print(combined_df_eval['category'].value_counts(normalize=True))
+print("\nCategory distribution in combined_test_v2.csv:")
+print(combined_df_test['category'].value_counts(normalize=True))
+#%%
+# find the label distribution in the combined datasets
+print("Label distribution in combined_train_v2.csv:")
+print(combined_df_train['labels'].value_counts(normalize=True))
+print("\nLabel distribution in combined_eval_v2.csv:")
+print(combined_df_eval['labels'].value_counts(normalize=True))
+print("\nLabel distribution in combined_test_v2.csv:")
+print(combined_df_test['labels'].value_counts(normalize=True))
+#%%
+# check if any row has label NA or inf
+print("Rows with label NA or inf in combined_train_v2.csv:")
+print(combined_df_train[combined_df_train['labels'].isnull() | combined_df_train['labels'].eq(float('inf'))])
+
+print("\nRows with label NA or inf in combined_eval_v2.csv:")
+print(combined_df_eval[combined_df_eval['labels'].isnull() | combined_df_eval['labels'].eq(float('inf'))])
+
+print("\nRows with label NA or inf in combined_test_v2.csv:")
+print(combined_df_test[combined_df_test['labels'].isnull() | combined_df_test['labels'].eq(float('inf'))])
+# %%
+# Generated G7 dataset using Claude. We split it as well.
+
+new_df = pd.read_csv("claude_datasets/cleaned_datasets/G7_hard_negatives_genuine_messages.csv")
+
+train_data, temp_data = train_test_split(new_df, test_size=0.2, random_state=42)
+eval_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42)
+
+train_data.to_csv("claude_datasets/split_datasets/train_G7_hard_negatives_genuine_messages.csv", index=False)
+eval_data.to_csv("claude_datasets/split_datasets/eval_G7_hard_negatives_genuine_messages.csv", index=False)
+test_data.to_csv("claude_datasets/split_datasets/test_G7_hard_negatives_genuine_messages.csv", index=False)
+
+# combine the new G7 dataset with the existing combined datasets
+combined_df_train = pd.concat([combined_df_train, train_data], ignore_index=True)
+combined_df_eval = pd.concat([combined_df_eval, eval_data], ignore_index=True)
+combined_df_test = pd.concat([combined_df_test, test_data], ignore_index=True)
+
+# Save the updated combined datasets
+combined_df_train.to_csv("claude_datasets/combined_train_v3.csv", index=False)
+combined_df_eval.to_csv("claude_datasets/combined_eval_v3.csv", index=False)
+combined_df_test.to_csv("claude_datasets/combined_test_v3.csv", index=False)
+#%%
