@@ -131,7 +131,6 @@ print("\nRows with label NA or inf in combined_test_v2.csv:")
 print(combined_df_test[combined_df_test['labels'].isnull() | combined_df_test['labels'].eq(float('inf'))])
 # %%
 # Generated G7 dataset using Claude. We split it as well.
-
 new_df = pd.read_csv("claude_datasets/cleaned_datasets/G7_hard_negatives_genuine_messages.csv")
 
 train_data, temp_data = train_test_split(new_df, test_size=0.2, random_state=42)
@@ -151,3 +150,86 @@ combined_df_train.to_csv("claude_datasets/combined_train_v3.csv", index=False)
 combined_df_eval.to_csv("claude_datasets/combined_eval_v3.csv", index=False)
 combined_df_test.to_csv("claude_datasets/combined_test_v3.csv", index=False)
 #%%
+import pandas as pd
+combined_df_train = pd.read_csv("claude_datasets/combined_train_v3.csv")
+print(combined_df_train.category.value_counts())
+#%%
+
+# Target maximum for G6
+G6_TARGET = 200
+
+# Separate G6 from the other categories
+g6_df = combined_df_train[combined_df_train["category"] == "G6"]
+other_df = combined_df_train[combined_df_train["category"] != "G6"]
+
+# Randomly sample G6 while preserving its diversity
+g6_sampled = g6_df.sample(
+    n=G6_TARGET,
+    random_state=42
+)
+
+# Recombine and shuffle
+train_df_balanced = pd.concat(
+    [other_df, g6_sampled],
+    ignore_index=True
+).sample(
+    frac=1,
+    random_state=42
+).reset_index(drop=True)
+
+print(train_df_balanced["category"].value_counts())
+print(train_df_balanced["labels"].value_counts())
+#%%
+# save the balanced dataset
+train_df_balanced.to_csv("claude_datasets/combined_train_v4_balanced.csv", index=False)
+#%%
+# repeat for eval and test sets
+G6_target_eval = 25
+G6_target_test = 25
+
+# Separate G6 from the other categories
+g6_df = combined_df_eval[combined_df_eval["category"] == "G6"]
+other_df = combined_df_eval[combined_df_eval["category"] != "G6"]
+
+# Randomly sample G6 while preserving its diversity
+g6_sampled = g6_df.sample(
+    n=G6_target_eval,
+    random_state=42
+)
+
+# Recombine and shuffle
+eval_df_balanced = pd.concat(
+    [other_df, g6_sampled],
+    ignore_index=True
+).sample(
+    frac=1,
+    random_state=42
+).reset_index(drop=True)
+
+print(eval_df_balanced["category"].value_counts(normalize=True))
+print(eval_df_balanced["labels"].value_counts(normalize=True))
+
+eval_df_balanced.to_csv("claude_datasets/combined_eval_v4_balanced.csv", index=False)
+#%%
+g6_df = combined_df_test[combined_df_test["category"] == "G6"]
+other_df = combined_df_test[combined_df_test["category"] != "G6"]
+
+# Randomly sample G6 while preserving its diversity
+g6_sampled = g6_df.sample(
+    n=G6_target_test,
+    random_state=42
+)
+
+# Recombine and shuffle
+test_df_balanced = pd.concat(
+    [other_df, g6_sampled],
+    ignore_index=True
+).sample(
+    frac=1,
+    random_state=42
+).reset_index(drop=True)
+
+print(test_df_balanced["category"].value_counts(normalize=True))
+print(test_df_balanced["labels"].value_counts(normalize=True))
+
+test_df_balanced.to_csv("claude_datasets/combined_test_v4_balanced.csv", index=False)
