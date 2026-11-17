@@ -1,1 +1,6 @@
 p_bot_abuse/
+mlflow.db
+mlruns/
+mlflow.db-shm
+mlflow.db-wal
+artifacts/
